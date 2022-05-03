@@ -1,0 +1,120 @@
+html {
+    font-size: 14px;
+    background-color: cornflowerblue;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: burlywood;
+}
+
+body {
+    margin-bottom: 15px;
+    background-color: burlywood;
+}
+#centerit{
+    text-align: center;
+    
+}
+#subname{
+    text-align: center;
+}
+
+
+#itsMe{
+    display: none;
+    text-align:center;
+}
+#contactss{
+    display:none;
+}
+#contactForm{
+    display: none;
+}
+
+
+.buttonA{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color: white;
+    font-size: 16px;
+    display:flex;
+    margin: 0 auto !important;
+    cursor: pointer;
+    justify-content: center !important;
+    align-items: center;
+}
+.buttonB {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color: white;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+ul {
+    
+    
+    text-align: center;
+    list-style: inside;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+#contactForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 15px;
+}
